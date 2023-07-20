@@ -21,7 +21,7 @@ namespace CustomCookieBased
         {
             services.AddDbContext<CookieContext>(opt =>
             {
-                opt.UseSqlServer("server=coinodb-dev.cjq6i1xxy6zz.eu-central-1.rds.amazonaws.com;database=CookieDbHalil;Uid=sa;Password=DtzsCI3HF9n4WIX7O3dj6SSdC43PdpwpMtcaXtDlj8TJy3KDSJ");
+                opt.UseSqlServer("server=myservername;database=xxx;Uid=xx;Password=XXX");
             });
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt =>
